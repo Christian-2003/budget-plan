@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.BudgetPlan" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Default app colors -->
+        <item name="colorPrimary">@color/bp_primary</item>
+        <item name="colorOnPrimary">@color/bp_text</item>
+        <item name="colorPrimaryContainer">@color/bp_primary</item>
+        <item name="colorOnPrimaryContainer">@color/bp_primary</item>
+        <item name="colorError">#BA1A1A</item>
+        <item name="colorErrorContainer">#FFDAD6</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorOnErrorContainer">#410002</item>
+        <item name="android:colorBackground">@color/bp_background</item>
+        <item name="colorOnBackground">@color/bp_text</item>
+        <item name="colorSurface">@color/bp_background</item>
+        <item name="colorOnSurface">@color/bp_text</item>
+        <item name="colorSurfaceVariant">@color/bp_background</item>
+        <item name="colorOnSurfaceVariant">@color/bp_background</item>
+        <item name="colorOutline">@color/bp_text_secondary</item>
+
+        <item name="android:colorBackgroundFloating">@color/bp_container</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Default styles for material components -->
+    </style>
+
+
+    <!-- Theme for activity in which the navigation bar needs to be colored the same as a container -->
+    <style name="Theme.PasswordVault.ContainerNavBar" parent="Theme.BudgetPlan">
+        <item name="android:navigationBarColor">@color/bp_container</item>
+    </style>
+
+</resources>

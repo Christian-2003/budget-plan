@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="bp_primary">#4C5D7F</color>
+    <color name="bp_background">#F6F6F8</color>
+
+    <color name="bp_container">#FCFCFE</color>
+    <color name="bp_container_highlight">#BFE3E2</color>
+    <color name="bp_container_detail">#F2F2F2</color>
+
+    <color name="bp_text">#000000</color>
+    <color name="bp_text_secondary">#8D8C91</color>
+    <color name="bp_text_primary">#4C5D7F</color>
+    <color name="bp_text_onPrimary">#FAFAFA</color>
+
+</resources>
